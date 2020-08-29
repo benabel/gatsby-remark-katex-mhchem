@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-remark-katex-mhchem",
+  "description": "Use mhchem with remark in gatsby",
+  "version": "0.1.0",
+  "author": "Benjamin Abel <dev.abel@free.fr>",
+  "bugs": {
+    "url": "https://github.com/benabel/gatsby-remark-katex-mhchem/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.10.2",
+    "remark-math": "^1.0.6",
+    "unist-util-visit": "^1.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "babel-preset-gatsby-package": "^0.4.3",
+    "cross-env": "^5.2.1"
+  },
+  "homepage": "https://github.com/benabel/gatsby-remark-katex-mhchem",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "katex",
+    "remark"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "gatsby": "^2.0.0",
+    "katex": "^0.10.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore \"**/__tests__\"",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore \"**/__tests__\""
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  }
+}
