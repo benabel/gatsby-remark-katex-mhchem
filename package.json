@@ -1,7 +1,7 @@
 {
   "name": "gatsby-remark-katex-mhchem",
   "description": "Use mhchem with remark in gatsby",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Benjamin Abel <dev.abel@free.fr>",
   "bugs": {
     "url": "https://github.com/benabel/gatsby-remark-katex-mhchem/issues"
